@@ -313,7 +313,7 @@ function RecipeDetail() {
               className="specular-spotlight absolute inset-0 pointer-events-none z-10 transition-opacity duration-300"
               style={{
                 background: tilt.active
-                  ? `radial-gradient(circle at ${tilt.spotX}% ${tilt.spotY}%, rgba(255, 255, 255, 0.4) 0%, rgba(245, 235, 218, 0.14) 35%, transparent 68%)`
+                  ? `radial-gradient(circle at ${tilt.spotX}% ${tilt.spotY}%, rgba(255, 255, 255, 0.4) 0%, rgba(245, 235, 218, 0) 16%, transparent 68%)`
                   : "none",
                 opacity: tilt.active ? 1 : 0,
               }}

@@ -229,7 +229,7 @@ function Home() {
               className="specular-spotlight absolute inset-0 pointer-events-none z-10 transition-opacity duration-300"
               style={{
                 background: heroTilt.active
-                  ? `radial-gradient(circle at ${heroTilt.spotX}% ${heroTilt.spotY}%, rgba(255, 255, 255, 0.45) 0%, rgba(245, 235, 218, 0.16) 35%, transparent 68%)`
+                  ? `radial-gradient(circle at ${heroTilt.spotX}% ${heroTilt.spotY}%, rgba(255, 255, 255, 0.45) 0%, rgba(245, 235, 218, 0) 16%, transparent 68%)`
                   : "none",
                 opacity: heroTilt.active ? 1 : 0,
               }}
@@ -360,7 +360,7 @@ function Home() {
           <button
             type="button"
             onClick={() => fetchRecipes(0, "")}
-            className="mt-4 text-xs font-bold uppercase tracking-wider text-accent hover:underline"
+            className="mt-4 text-2xl font-bold uppercase tracking-wider text-white hover:underline p-3 "
           >
             Show all recipes
           </button>

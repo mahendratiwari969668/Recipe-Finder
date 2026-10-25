@@ -61,7 +61,7 @@ function RecipeCard({ recipe }) {
         className="card-specular-light pointer-events-none absolute inset-0 z-10 transition-opacity duration-300"
         style={{
           background: tilt.active
-            ? `radial-gradient(circle at ${tilt.spotX}% ${tilt.spotY}%, rgba(255, 255, 255, 0.42) 0%, rgba(245, 235, 218, 0.15) 35%, transparent 65%)`
+            ? `radial-gradient(circle at ${tilt.spotX}% ${tilt.spotY}%, rgba(255, 255, 255, 0.42) 0%, rgba(245, 235, 218, 0.01) 16%, transparent 100%)`
             : "none",
           opacity: tilt.active ? 1 : 0,
         }}
